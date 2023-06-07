@@ -119,3 +119,131 @@ nlu:
   examples: |
     - How to prevent cancer?
     - Cancer prevention methods
+
+
+
+- intent: ask_malaria_description
+  examples: |
+    - What is malaria?
+    - Can you explain malaria to me?
+    - What does malaria mean?
+
+- intent: ask_malaria_symptoms
+  examples: |
+    - What are the symptoms of malaria?
+    - How do I know if I have malaria?
+    - What are the signs of malaria?
+
+- intent: ask_malaria_prevention
+  examples: |
+    - How can I prevent malaria?
+    - What measures can I take to avoid getting malaria?
+    - Are there any precautions for malaria?
+
+- intent: ask_polio_description
+  examples: |
+    - What is polio?
+    - Can you explain polio to me?
+    - What does polio mean?
+
+- intent: ask_polio_symptoms
+  examples: |
+    - What are the symptoms of polio?
+    - How do I know if I have polio?
+    - What are the signs of polio?
+
+- intent: ask_polio_prevention
+  examples: |
+    - How can I prevent polio?
+    - What measures can I take to avoid getting polio?
+    - Are there any precautions for polio?
+
+- intent: ask_diabetes_description
+  examples: |
+    - What is diabetes?
+    - Can you explain diabetes to me?
+    - What does diabetes mean?
+
+- intent: ask_diabetes_symptoms
+  examples: |
+    - What are the symptoms of diabetes?
+    - How do I know if I have diabetes?
+    - What are the signs of diabetes?
+
+- intent: ask_diabetes_prevention
+  examples: |
+    - How can I prevent diabetes?
+    - What measures can I take to avoid getting diabetes?
+    - Are there any precautions for diabetes?
+
+- intent: cardiovascular_description
+  examples: |
+    - What are cardiovascular diseases?
+    - Can you explain cardiovascular diseases to me?
+    - Tell me about cardiovascular diseases.
+
+- intent: cardiovascular_symptoms
+  examples: |
+    - What are the symptoms of cardiovascular diseases?
+    - How do I know if I have a cardiovascular disease?
+    - What are the signs of cardiovascular diseases?
+
+- intent: cardiovascular_prevention
+  examples: |
+    - How can I prevent cardiovascular diseases?
+    - What measures can I take to reduce the risk of cardiovascular diseases?
+    - Are there any ways to protect myself from cardiovascular diseases?
+
+- intent: respiratory_description
+  examples: |
+    - What are respiratory diseases?
+    - Can you explain respiratory diseases to me?
+    - Tell me about respiratory diseases.
+
+- intent: respiratory_symptoms
+  examples: |
+    - What are the symptoms of respiratory diseases?
+    - How do I know if I have a respiratory disease?
+    - What are the signs of respiratory diseases?
+
+- intent: respiratory_prevention
+  examples: |
+    - How can I prevent respiratory diseases?
+    - What measures can I take to reduce the risk of respiratory diseases?
+    - Are there any ways to protect myself from respiratory diseases?
+
+- intent: tuberculosis_description
+  examples: |
+    - What is tuberculosis?
+    - Can you explain tuberculosis to me?
+    - Tell me about tuberculosis.
+
+- intent: tuberculosis_symptoms
+  examples: |
+    - What are the symptoms of tuberculosis?
+    - How do I know if I have tuberculosis?
+    - What are the signs of tuberculosis?
+
+- intent: tuberculosis_prevention
+  examples: |
+    - How can I prevent tuberculosis?
+    - What measures can I take to reduce the risk of tuberculosis?
+    - Are there any ways to protect myself from tuberculosis?
+
+- intent: tumors_description
+  examples: |
+    - What are malignant tumors?
+    - Can you explain malignant tumors to me?
+    - Tell me about malignant tumors.
+
+- intent: tumors_symptoms
+  examples: |
+    - What are the symptoms of malignant tumors?
+    - How do I know if I have malignant tumors?
+    - What are the signs of malignant tumors?
+
+- intent: tumors_prevention
+  examples: |
+    - How can I prevent malignant tumors?
+    - What measures can I take to reduce the risk of malignant tumors?
+    - Are there any ways to protect myself from malignant tumors?

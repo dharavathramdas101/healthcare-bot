@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthcare Chatbot</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Healthcare Chatbot</h1>
+    <div id="chat-container"></div>
+    <input id="user-input" type="text" placeholder="Enter your message" autofocus>
+    <button id="send-btn">Send</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#send-btn').click(function () {
+                var userInput = $('#user-input').val();
+                $('#chat-container').append('<p class="user-message">' + userInput + '</p>');
+                $('#user-input').val('');
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/get_response',
+                    data: {
+                        user_input: userInput
+                    },
+                    success: function (response) {
+                        $('#chat-container').append('<p class="bot-message">' + response + '</p>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

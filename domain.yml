@@ -14,6 +14,27 @@ intents:
   - cancer_description
   - cancer_symptoms
   - cancer_prevention
+  - ask_malaria_description
+  - ask_malaria_symptoms
+  - ask_malaria_prevention
+  - ask_polio_description
+  - ask_polio_symptoms
+  - ask_polio_prevention
+  - ask_diabetes_description
+  - ask_diabetes_symptoms
+  - ask_diabetes_prevention
+  - cardiovascular_description
+  - cardiovascular_symptoms
+  - cardiovascular_prevention
+  - respiratory_description
+  - respiratory_symptoms
+  - respiratory_prevention
+  - tuberculosis_description
+  - tuberculosis_symptoms
+  - tuberculosis_prevention
+  - tumors_description
+  - tumors_symptoms
+  - tumors_prevention
 
 responses:
   utter_greet:
@@ -52,6 +73,73 @@ responses:
 
   utter_cancer_prevention:
   - text: "Preventive measures for cancer include adopting a healthy lifestyle, avoiding tobacco and excessive alcohol consumption, protecting yourself from the sun, and getting regular screenings."
+
+
+  utter_malaria_description:
+  - text: "Malaria is a mosquito-borne infectious disease that affects humans and other animals. It is caused by the Plasmodium parasite."
+
+  utter_malaria_symptoms:
+  - text: "The symptoms of malaria include fever, chills, headache, muscle aches, fatigue, nausea, and vomiting."
+
+  utter_malaria_prevention:
+  - text: "To prevent malaria, it is important to use mosquito nets while sleeping, wear protective clothing, use insect repellents, and eliminate mosquito breeding sites."
+
+  utter_polio_description:
+  - text: "Polio, or poliomyelitis, is a highly infectious viral disease caused by the poliovirus. It primarily affects children under the age of 5."
+
+  utter_polio_symptoms:
+  - text: "The symptoms of polio include fever, fatigue, headache, vomiting, stiffness in the neck, and pain in the limbs."
+
+  utter_polio_prevention:
+  - text: "Polio can be prevented through vaccination. Ensure that you and your children receive the recommended polio vaccine doses."
+
+  utter_diabetes_description:
+  - text: "Diabetes is a chronic metabolic disorder characterized by high blood sugar levels. It occurs when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces."
+
+  utter_diabetes_symptoms:
+  - text: "The symptoms of diabetes include increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, and slow healing of wounds."
+
+  utter_diabetes_prevention:
+  - text: "To reduce the risk of diabetes, maintain a healthy weight, exercise regularly, follow a balanced diet, limit the consumption of sugary foods and drinks, and avoid smoking."
+  
+
+  utter_cardiovascular_description:
+  - text: "Cardiovascular diseases are a class of diseases that involve the heart and blood vessels. They include conditions such as coronary artery disease, heart attacks, and strokes."
+
+  utter_cardiovascular_symptoms:
+  - text: "Symptoms of cardiovascular diseases may include chest pain, shortness of breath, fatigue, dizziness, and irregular heartbeat."
+
+  utter_cardiovascular_prevention:
+  - text: "To prevent cardiovascular diseases, it is important to maintain a healthy lifestyle by eating a balanced diet, exercising regularly, avoiding smoking, managing stress, and monitoring blood pressure and cholesterol levels."
+
+  utter_respiratory_description:
+  - text: "Respiratory diseases affect the lungs and the respiratory system. They include conditions such as asthma, chronic obstructive pulmonary disease (COPD), and pneumonia."
+
+  utter_respiratory_symptoms:
+  - text: "Symptoms of respiratory diseases may include coughing, wheezing, shortness of breath, chest tightness, and frequent respiratory infections."
+
+  utter_respiratory_prevention:
+  - text: "To prevent respiratory diseases, it is important to avoid exposure to pollutants and irritants, practice good hygiene, get vaccinated against respiratory infections, and quit smoking if applicable."
+
+  utter_tuberculosis_description:
+  - text: "Tuberculosis (TB) is a bacterial infection that primarily affects the lungs. It can cause symptoms such as persistent cough, chest pain, coughing up blood, fatigue, and weight loss."
+
+  utter_tuberculosis_symptoms:
+  - text: "Symptoms of tuberculosis may include coughing for more than two weeks, chest pain, coughing up blood, fatigue, fever, and night sweats."
+
+  utter_tuberculosis_prevention:
+  - text: "To prevent tuberculosis, it is important to maintain good respiratory hygiene, such as covering the mouth when coughing or sneezing, getting vaccinated if available, and avoiding close contact with individuals who have active TB."
+
+  utter_tumors_description:
+  - text: "Malignant tumors are cancerous growths that can invade nearby tissues and spread to other parts of the body. They can occur in various organs and can cause a range of symptoms."
+
+  utter_tumors_symptoms:
+  - text: "Symptoms of malignant tumors depend on the type and location of the tumor. They may include lumps or growths, unexplained weight loss, changes in bowel or bladder habits, persistent pain, and unusual bleeding or discharge."
+
+  utter_tumors_prevention:
+  - text: "Preventing malignant tumors involves adopting a healthy lifestyle, such as maintaining a balanced diet, engaging in regular physical activity, avoiding tobacco and excessive alcohol consumption, protecting yourself from the sun, and getting regular screenings when appropriate."
+  
+
 
 session_config:
   session_expiration_time: 60

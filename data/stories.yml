@@ -75,3 +75,109 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+
+- story: malaria description path
+  steps:
+    - intent: ask_malaria_description
+    - action: utter_malaria_description
+
+- story: malaria symptoms path
+  steps:
+    - intent: ask_malaria_symptoms
+    - action: utter_malaria_symptoms
+
+- story: malaria prevention path
+  steps:
+    - intent: ask_malaria_prevention
+    - action: utter_malaria_prevention
+
+- story: polio description path
+  steps:
+    - intent: ask_polio_description
+    - action: utter_polio_description
+
+- story: polio symptoms path
+  steps:
+    - intent: ask_polio_symptoms
+    - action: utter_polio_symptoms
+
+- story: polio prevention path
+  steps:
+    - intent: ask_polio_prevention
+    - action: utter_polio_prevention
+
+- story: diabetes description path
+  steps:
+    - intent: ask_diabetes_description
+    - action: utter_diabetes_description
+
+- story: diabetes symptoms path
+  steps:
+    - intent: ask_diabetes_symptoms
+    - action: utter_diabetes_symptoms
+
+- story: diabetes prevention path
+  steps:
+    - intent: ask_diabetes_prevention
+    - action: utter_diabetes_prevention
+
+
+- story: cardiovascular description path
+  steps:
+    - intent: cardiovascular_description
+    - action: utter_cardiovascular_description
+
+- story: cardiovascular symptoms path
+  steps:
+    - intent: cardiovascular_symptoms
+    - action: utter_cardiovascular_symptoms
+
+- story: cardiovascular prevention path
+  steps:
+    - intent: cardiovascular_prevention
+    - action: utter_cardiovascular_prevention
+
+- story: respiratory description path
+  steps:
+    - intent: respiratory_description
+    - action: utter_respiratory_description
+
+- story: respiratory symptoms path
+  steps:
+    - intent: respiratory_symptoms
+    - action: utter_respiratory_symptoms
+
+- story: respiratory prevention path
+  steps:
+    - intent: respiratory_prevention
+    - action: utter_respiratory_prevention
+
+- story: tuberculosis description path
+  steps:
+    - intent: tuberculosis_description
+    - action: utter_tuberculosis_description
+
+- story: tuberculosis symptoms path
+  steps:
+    - intent: tuberculosis_symptoms
+    - action: utter_tuberculosis_symptoms
+
+- story: tuberculosis prevention path
+  steps:
+    - intent: tuberculosis_prevention
+    - action: utter_tuberculosis_prevention
+
+- story: tumors description path
+  steps:
+    - intent: tumors_description
+    - action: utter_tumors_description
+
+- story: tumors symptoms path
+  steps:
+    - intent: tumors_symptoms
+    - action: utter_tumors_symptoms
+
+- story: tumors prevention path
+  steps:
+    - intent: tumors_prevention
+    - action: utter_tumors_prevention
