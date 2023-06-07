@@ -247,3 +247,94 @@ nlu:
     - How can I prevent malignant tumors?
     - What measures can I take to reduce the risk of malignant tumors?
     - Are there any ways to protect myself from malignant tumors?
+
+
+- intent: diarrhea_description
+  examples: |
+    - What is diarrhea?
+    - Can you explain diarrhea to me?
+    - Tell me about diarrhea
+
+- intent: diarrhea_symptoms
+  examples: |
+    - What are the symptoms of diarrhea?
+    - How do I know if I have diarrhea?
+    - What are the signs of diarrhea?
+
+- intent: diarrhea_prevention
+  examples: |
+    - How can I prevent diarrhea?
+    - What measures can I take to avoid getting diarrhea?
+    - Are there any ways to protect myself from diarrhea?
+
+- intent: hepatitis_description
+  examples: |
+    - What is hepatitis?
+    - Can you explain hepatitis to me?
+    - Tell me about hepatitis
+
+- intent: hepatitis_symptoms
+  examples: |
+    - What are the symptoms of hepatitis?
+    - How do I know if I have hepatitis?
+    - What are the signs of hepatitis?
+
+- intent: hepatitis_prevention
+  examples: |
+    - How can I prevent hepatitis?
+    - What measures can I take to reduce the risk of hepatitis?
+    - Are there any ways to protect myself from hepatitis?
+
+- intent: influenza_description
+  examples: |
+    - What is influenza?
+    - Can you explain influenza to me?
+    - Tell me about influenza
+
+- intent: influenza_symptoms
+  examples: |
+    - What are the symptoms of influenza?
+    - How do I know if I have influenza?
+    - What are the signs of influenza?
+
+- intent: influenza_prevention
+  examples: |
+    - How can I prevent influenza?
+    - What measures can I take to avoid getting influenza?
+    - Are there any ways to protect myself from influenza?
+
+- intent: leprosy_description
+  examples: |
+    - What is leprosy?
+    - Can you explain leprosy to me?
+    - Tell me about leprosy
+
+- intent: leprosy_symptoms
+  examples: |
+    - What are the symptoms of leprosy?
+    - How do I know if I have leprosy?
+    - What are the signs of leprosy?
+
+- intent: leprosy_prevention
+  examples: |
+    - How can I prevent leprosy?
+    - What measures can I take to reduce the risk of leprosy?
+    - Are there any ways to protect myself from leprosy?
+
+- intent: meningitis_description
+  examples: |
+    - What is meningitis?
+    - Can you explain meningitis to me?
+    - Tell me about meningitis
+
+- intent: meningitis_symptoms
+  examples: |
+    - What are the symptoms of meningitis?
+    - How do I know if I have meningitis?
+    - What are the signs of meningitis?
+
+- intent: meningitis_prevention
+  examples: |
+    - How can I prevent meningitis?
+    - What measures can I take to avoid getting meningitis?
+    - Are there any ways to protect myself from meningitis?

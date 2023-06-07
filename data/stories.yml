@@ -181,3 +181,78 @@ stories:
   steps:
     - intent: tumors_prevention
     - action: utter_tumors_prevention
+
+- story: diarrhea description path
+  steps:
+    - intent: diarrhea_description
+    - action: utter_diarrhea_description
+
+- story: diarrhea symptoms path
+  steps:
+    - intent: diarrhea_symptoms
+    - action: utter_diarrhea_symptoms
+
+- story: diarrhea prevention path
+  steps:
+    - intent: diarrhea_prevention
+    - action: utter_diarrhea_prevention
+
+- story: hepatitis description path
+  steps:
+    - intent: hepatitis_description
+    - action: utter_hepatitis_description
+
+- story: hepatitis symptoms path
+  steps:
+    - intent: hepatitis_symptoms
+    - action: utter_hepatitis_symptoms
+
+- story: hepatitis prevention path
+  steps:
+    - intent: hepatitis_prevention
+    - action: utter_hepatitis_prevention
+
+- story: influenza description path
+  steps:
+    - intent: influenza_description
+    - action: utter_influenza_description
+
+- story: influenza symptoms path
+  steps:
+    - intent: influenza_symptoms
+    - action: utter_influenza_symptoms
+
+- story: influenza prevention path
+  steps:
+    - intent: influenza_prevention
+    - action: utter_influenza_prevention
+
+- story: leprosy description path
+  steps:
+    - intent: leprosy_description
+    - action: utter_leprosy_description
+
+- story: leprosy symptoms path
+  steps:
+    - intent: leprosy_symptoms
+    - action: utter_leprosy_symptoms
+
+- story: leprosy prevention path
+  steps:
+    - intent: leprosy_prevention
+    - action: utter_leprosy_prevention
+
+- story: meningitis description path
+  steps:
+    - intent: meningitis_description
+    - action: utter_meningitis_description
+
+- story: meningitis symptoms path
+  steps:
+    - intent: meningitis_symptoms
+    - action: utter_meningitis_symptoms
+
+- story: meningitis prevention path
+  steps:
+    - intent: meningitis_prevention
+    - action: utter_meningitis_prevention

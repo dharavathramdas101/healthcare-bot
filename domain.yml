@@ -35,6 +35,22 @@ intents:
   - tumors_description
   - tumors_symptoms
   - tumors_prevention
+  - diarrhea_description
+  - diarrhea_symptoms
+  - diarrhea_prevention
+  - hepatitis_description
+  - hepatitis_symptoms
+  - hepatitis_prevention
+  - influenza_description
+  - influenza_symptoms
+  - influenza_prevention
+  - leprosy_description
+  - leprosy_symptoms
+  - leprosy_prevention
+  - meningitis_description
+  - meningitis_symptoms
+  - meningitis_prevention
+
 
 responses:
   utter_greet:
@@ -139,6 +155,50 @@ responses:
   utter_tumors_prevention:
   - text: "Preventing malignant tumors involves adopting a healthy lifestyle, such as maintaining a balanced diet, engaging in regular physical activity, avoiding tobacco and excessive alcohol consumption, protecting yourself from the sun, and getting regular screenings when appropriate."
   
+  utter_diarrhea_description:
+  - text: "Diarrhea is a condition characterized by loose or watery stools, usually occurring due to an infection or digestive issue."
+
+  utter_diarrhea_symptoms:
+  - text: "Common symptoms of diarrhea include frequent bowel movements, loose or watery stools, abdominal cramps, and dehydration."
+
+  utter_diarrhea_prevention:
+  - text: "To prevent diarrhea, it is important to maintain good hygiene, such as washing hands regularly, drinking clean water, and consuming properly cooked food."
+
+  utter_hepatitis_description:
+  - text: "Hepatitis is an inflammation of the liver, commonly caused by viral infections, such as hepatitis A, B, or C."
+
+  utter_hepatitis_symptoms:
+  - text: "Symptoms of hepatitis may include fatigue, jaundice (yellowing of the skin and eyes), abdominal pain, and nausea."
+
+  utter_hepatitis_prevention:
+  - text: "To prevent hepatitis, it is important to practice safe hygiene, such as washing hands regularly, using barrier methods during sexual activity, and getting vaccinated if available."
+
+  utter_influenza_description:
+  - text: "Influenza, commonly known as the flu, is a viral respiratory illness that can cause mild to severe symptoms."
+
+  utter_influenza_symptoms:
+  - text: "Symptoms of influenza may include fever, cough, sore throat, body aches, fatigue, and nasal congestion."
+
+  utter_influenza_prevention:
+  - text: "To prevent influenza, it is recommended to get an annual flu vaccine, practice good respiratory hygiene, such as covering your mouth and nose when coughing or sneezing, and avoiding close contact with sick individuals."
+
+  utter_leprosy_description:
+  - text: "Leprosy, also known as Hansen's disease, is a chronic infectious disease that primarily affects the skin, nerves, and mucous membranes."
+
+  utter_leprosy_symptoms:
+  - text: "Symptoms of leprosy may include skin lesions, numbness or loss of sensation in affected areas, and muscle weakness."
+
+  utter_leprosy_prevention:
+  - text: "Leprosy can be prevented through early diagnosis and treatment. It is important to maintain good personal hygiene and avoid close and prolonged contact with untreated individuals."
+
+  utter_meningitis_description:
+  - text: "Meningitis is an inflammation of the protective membranes surrounding the brain and spinal cord. It can be caused by viral or bacterial infections."
+
+  utter_meningitis_symptoms:
+  - text: "Symptoms of meningitis may include severe headache, fever, neck stiffness, sensitivity to light, and confusion."
+
+  utter_meningitis_prevention:
+  - text: "To prevent meningitis, it is important to maintain good hygiene, such as washing hands regularly, completing recommended vaccinations, and avoiding close contact with infected individuals."
 
 
 session_config:
