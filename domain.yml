@@ -1,0 +1,58 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - fever_description
+  - fever_symptoms
+  - fever_prevention
+  - cancer_description
+  - cancer_symptoms
+  - cancer_prevention
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_fever_description:
+  - text: "Fever is a common symptom characterized by an increase in body temperature above the normal range."
+
+  utter_fever_symptoms:
+  - text: "Common symptoms of fever include high body temperature, headache, muscle aches, sweating, and chills."
+
+  utter_fever_prevention:
+  - text: "To prevent fever, maintain good hygiene, wash hands regularly, avoid close contact with infected individuals, and get vaccinated if available."
+
+  utter_cancer_description:
+  - text: "Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells in the body."
+
+  utter_cancer_symptoms:
+  - text: "Symptoms of cancer vary depending on the type and stage but may include unexplained weight loss, fatigue, pain, changes in the skin, and abnormal bleeding."
+
+  utter_cancer_prevention:
+  - text: "Preventive measures for cancer include adopting a healthy lifestyle, avoiding tobacco and excessive alcohol consumption, protecting yourself from the sun, and getting regular screenings."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

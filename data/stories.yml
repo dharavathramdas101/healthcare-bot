@@ -1,0 +1,77 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: User asks about fever
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fever_description
+  - action: utter_fever_description
+
+- story: User asks about fever symptoms
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fever_symptoms
+  - action: utter_fever_symptoms
+
+- story: User asks about fever prevention
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fever_prevention
+  - action: utter_fever_prevention
+
+- story: User asks about cancer
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cancer_description
+  - action: utter_cancer_description
+
+- story: User asks about cancer symptoms
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cancer_symptoms
+  - action: utter_cancer_symptoms
+
+- story: User asks about cancer prevention
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cancer_prevention
+  - action: utter_cancer_prevention
+
+- story: User says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
