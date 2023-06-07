@@ -256,3 +256,78 @@ stories:
   steps:
     - intent: meningitis_prevention
     - action: utter_meningitis_prevention
+
+- story: query rabies description
+  steps:
+    - intent: rabies_description
+    - action: utter_rabies_description
+
+- story: query rabies symptoms
+  steps:
+    - intent: rabies_symptoms
+    - action: utter_rabies_symptoms
+
+- story: query rabies prevention
+  steps:
+    - intent: rabies_prevention
+    - action: utter_rabies_prevention
+
+- story: query schistosomiasis description
+  steps:
+    - intent: schistosomiasis_description
+    - action: utter_schistosomiasis_description
+
+- story: query schistosomiasis symptoms
+  steps:
+    - intent: schistosomiasis_symptoms
+    - action: utter_schistosomiasis_symptoms
+
+- story: query schistosomiasis prevention
+  steps:
+    - intent: schistosomiasis_prevention
+    - action: utter_schistosomiasis_prevention
+
+- story: query tetanus description
+  steps:
+    - intent: tetanus_description
+    - action: utter_tetanus_description
+
+- story: query tetanus symptoms
+  steps:
+    - intent: tetanus_symptoms
+    - action: utter_tetanus_symptoms
+
+- story: query tetanus prevention
+  steps:
+    - intent: tetanus_prevention
+    - action: utter_tetanus_prevention
+
+- story: query trachoma description
+  steps:
+    - intent: trachoma_description
+    - action: utter_trachoma_description
+
+- story: query trachoma symptoms
+  steps:
+    - intent: trachoma_symptoms
+    - action: utter_trachoma_symptoms
+
+- story: query trachoma prevention
+  steps:
+    - intent: trachoma_prevention
+    - action: utter_trachoma_prevention
+
+- story: query typhoid description
+  steps:
+    - intent: typhoid_description
+    - action: utter_typhoid_description
+
+- story: query typhoid symptoms
+  steps:
+    - intent: typhoid_symptoms
+    - action: utter_typhoid_symptoms
+
+- story: query typhoid prevention
+  steps:
+    - intent: typhoid_prevention
+    - action: utter_typhoid_prevention

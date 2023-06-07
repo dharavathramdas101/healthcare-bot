@@ -338,3 +338,93 @@ nlu:
     - How can I prevent meningitis?
     - What measures can I take to avoid getting meningitis?
     - Are there any ways to protect myself from meningitis?
+
+- intent: rabies_description
+  examples: |
+    - What is rabies?
+    - Can you explain rabies to me?
+    - Tell me about rabies
+
+- intent: rabies_symptoms
+  examples: |
+    - What are the symptoms of rabies?
+    - How do I know if I have rabies?
+    - What are the signs of rabies?
+
+- intent: rabies_prevention
+  examples: |
+    - How can I prevent rabies?
+    - What measures can I take to avoid getting rabies?
+    - Are there any ways to protect myself from rabies?
+
+- intent: schistosomiasis_description
+  examples: |
+    - What is schistosomiasis?
+    - Can you explain schistosomiasis to me?
+    - Tell me about schistosomiasis
+
+- intent: schistosomiasis_symptoms
+  examples: |
+    - What are the symptoms of schistosomiasis?
+    - How do I know if I have schistosomiasis?
+    - What are the signs of schistosomiasis?
+
+- intent: schistosomiasis_prevention
+  examples: |
+    - How can I prevent schistosomiasis?
+    - What measures can I take to avoid getting schistosomiasis?
+    - Are there any ways to protect myself from schistosomiasis?
+
+- intent: tetanus_description
+  examples: |
+    - What is tetanus?
+    - Can you explain tetanus to me?
+    - Tell me about tetanus
+
+- intent: tetanus_symptoms
+  examples: |
+    - What are the symptoms of tetanus?
+    - How do I know if I have tetanus?
+    - What are the signs of tetanus?
+
+- intent: tetanus_prevention
+  examples: |
+    - How can I prevent tetanus?
+    - What measures can I take to avoid getting tetanus?
+    - Are there any ways to protect myself from tetanus?
+
+- intent: trachoma_description
+  examples: |
+    - What is trachoma?
+    - Can you explain trachoma to me?
+    - Tell me about trachoma
+
+- intent: trachoma_symptoms
+  examples: |
+    - What are the symptoms of trachoma?
+    - How do I know if I have trachoma?
+    - What are the signs of trachoma?
+
+- intent: trachoma_prevention
+  examples: |
+    - How can I prevent trachoma?
+    - What measures can I take to avoid getting trachoma?
+    - Are there any ways to protect myself from trachoma?
+
+- intent: typhoid_description
+  examples: |
+    - What is typhoid?
+    - Can you explain typhoid to me?
+    - Tell me about typhoid
+
+- intent: typhoid_symptoms
+  examples: |
+    - What are the symptoms of typhoid?
+    - How do I know if I have typhoid?
+    - What are the signs of typhoid?
+
+- intent: typhoid_prevention
+  examples: |
+    - How can I prevent typhoid?
+    - What measures can I take to avoid getting typhoid?
+    - Are there any ways to protect myself from typhoid?

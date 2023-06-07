@@ -50,6 +50,21 @@ intents:
   - meningitis_description
   - meningitis_symptoms
   - meningitis_prevention
+  - rabies_description
+  - rabies_symptoms
+  - rabies_prevention
+  - schistosomiasis_description
+  - schistosomiasis_symptoms
+  - schistosomiasis_prevention
+  - tetanus_description
+  - tetanus_symptoms
+  - tetanus_prevention
+  - trachoma_description
+  - trachoma_symptoms
+  - trachoma_prevention
+  - typhoid_description
+  - typhoid_symptoms
+  - typhoid_prevention
 
 
 responses:
@@ -199,6 +214,51 @@ responses:
 
   utter_meningitis_prevention:
   - text: "To prevent meningitis, it is important to maintain good hygiene, such as washing hands regularly, completing recommended vaccinations, and avoiding close contact with infected individuals."
+  
+  utter_rabies_description:
+  - text: "Rabies is a viral disease that affects the central nervous system and is transmitted through the bite of an infected animal."
+
+  utter_rabies_symptoms:
+  - text: "The symptoms of rabies may include fever, headache, fatigue, muscle aches, irritability, and eventually, neurological symptoms such as confusion, hallucinations, and paralysis."
+
+  utter_rabies_prevention:
+  - text: "To prevent rabies, it is important to avoid contact with wild or stray animals, vaccinate pets against rabies, and seek medical attention if bitten or scratched by an animal."
+
+  utter_schistosomiasis_description:
+  - text: "Schistosomiasis, also known as bilharzia, is a parasitic disease caused by infection with blood flukes of the genus Schistosoma."
+
+  utter_schistosomiasis_symptoms:
+  - text: "The symptoms of schistosomiasis may include fever, cough, abdominal pain, diarrhea, blood in the urine or stool, and liver and spleen enlargement."
+
+  utter_schistosomiasis_prevention:
+  - text: "Preventing schistosomiasis involves avoiding contact with contaminated freshwater, wearing protective clothing when exposed to freshwater, and practicing good hygiene."
+
+  utter_tetanus_description:
+  - text: "Tetanus, also known as lockjaw, is a bacterial infection caused by the toxin-producing bacterium Clostridium tetani."
+
+  utter_tetanus_symptoms:
+  - text: "The symptoms of tetanus include muscle stiffness and spasms, particularly in the jaw muscles (hence the name lockjaw), as well as difficulty swallowing and muscle rigidity."
+
+  utter_tetanus_prevention:
+  - text: "To prevent tetanus, it is important to maintain up-to-date tetanus immunization, particularly with a tetanus toxoid vaccine."
+
+  utter_trachoma_description:
+  - text: "Trachoma is a contagious bacterial infection of the eye that can lead to vision loss and blindness if left untreated."
+
+  utter_trachoma_symptoms:
+  - text: "The symptoms of trachoma may include eye discharge, redness, itching, blurred vision, and in advanced cases, eyelid deformities and corneal scarring."
+
+  utter_trachoma_prevention:
+  - text: "Preventing trachoma involves promoting good hygiene practices, such as facial cleanliness and proper sanitation, and seeking early treatment for infected individuals."
+
+  utter_typhoid_description:
+  - text: "Typhoid fever is a bacterial infection caused by Salmonella typhi and is primarily transmitted through contaminated food and water."
+
+  utter_typhoid_symptoms:
+  - text: "The symptoms of typhoid may include high fever, headache, abdominal pain, constipation or diarrhea, rose-colored spots on the chest, and general weakness."
+
+  utter_typhoid_prevention:
+  - text: "To prevent typhoid, it is important to practice good hygiene, such as regular handwashing, consume safe and clean food and water, and consider vaccination in high-risk areas."
 
 
 session_config:
