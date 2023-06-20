@@ -1,37 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Healthcare Chatbot</title>
+    <title>Chatbot</title>
     <style>
-        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #chatbox {
+            width: 600px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between; /* Display developers' info and chatbot side by side */
+        }
+
+        #chatlog {
+            height: 300px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow-y: scroll;
+            width: 60%; /* Adjust the width as needed */
+        }
+
+        .user-message,
+        .bot-message {
+            margin-bottom: 10px;
+        }
+
+        .user-message strong {
+            color: blue;
+        }
+
+        .bot-message strong {
+            color: green;
+        }
+
+        #userInput {
+            width: 70%; /* Adjust the width as needed */
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        #sendBtn {
+            padding: 5px 10px;
+        }
+
+        .healthcare-chatbot {
+            width: 40%; /* Adjust the width as needed */
+            height: 400px; /* Increased size */
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('path_to_image.jpg'); /* Replace 'path_to_image.jpg' with the actual path to your background image */
+            background-size: cover;
+        }
+
+        .healthcare-chatbot img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .developers-info {
+            width: 30%; /* Adjust the width as needed */
+            text-align: right;
+        }
+
+        .developers-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .developers-info ul li {
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            text-align: right;
+        }
     </style>
 </head>
 <body>
-    <h1>Healthcare Chatbot</h1>
-    <div id="chat-container"></div>
-    <input id="user-input" type="text" placeholder="Enter your message" autofocus>
-    <button id="send-btn">Send</button>
+    <h1>Chatbot</h1>
+    <div id="chatbox">
+        <div id="chatlog"></div>
+        <div class="developers-info">
+            <p>Developed by:</p>
+            <ul>
+                <li>Chaganti Kusumitha</li>
+                <li>Sagar Barkam</li>
+                <li>Jhansi Lakshmi</li>
+                <li>Sravanthi Goalla</li>
+                <li>Vasanth K</li>
+                <li>Dharavath Ramdas</li>
+            </ul>
+            <div class="contact-info">
+                <p>Contact us at:</p>
+                <p><a href="mailto:dramdas1505@gmail.com">dramdas1505@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="healthcare-chatbot">
+            <img src="https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_22457_16516788730473249.jpg" alt="Healthcare Chatbot">
+        </div>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div>
+        <input id="userInput" type="text" placeholder="Enter your message" autofocus />
+        <button id="sendBtn" onclick="sendMessage()">Send</button>
+    </div>
+
     <script>
-        $(document).ready(function () {
-            $('#send-btn').click(function () {
-                var userInput = $('#user-input').val();
-                $('#chat-container').append('<p class="user-message">' + userInput + '</p>');
-                $('#user-input').val('');
+        function sendMessage() {
+            var userInput = document.getElementById('userInput');
+            var chatLog = document.getElementById('chatlog');
+            var userMessage = userInput.value;
+            userInput.value = '';
 
-                $.ajax({
-                    type: 'POST',
-                    url: '/get_response',
-                    data: {
-                        user_input: userInput
-                    },
-                    success: function (response) {
-                        $('#chat-container').append('<p class="bot-message">' + response + '</p>');
-                    }
-                });
+            // Append user message to chat log
+            var userMessageElement = document.createElement('div');
+            userMessageElement.className = 'user-message';
+            userMessageElement.innerHTML = '<strong>You:</strong> ' + userMessage;
+            chatLog.appendChild(userMessageElement);
+
+            // Send user message to the server and get response
+            fetch('/get_response', {
+                method: 'POST',
+                body: new URLSearchParams({ user_input: userMessage }),
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+            })
+            .then(response => response.text())
+            .then(botResponse => {
+                // Append bot response to chat log
+                var botResponseElement = document.createElement('div');
+                botResponseElement.className = 'bot-message';
+                botResponseElement.innerHTML = '<strong>Bot:</strong> ' + botResponse;
+                chatLog.appendChild(botResponseElement);
+
+                // Scroll to the bottom of the chat log
+                chatLog.scrollTop = chatLog.scrollHeight;
             });
-        });
+        }
     </script>
 </body>
 </html>

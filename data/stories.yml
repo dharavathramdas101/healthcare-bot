@@ -331,3 +331,185 @@ stories:
   steps:
     - intent: typhoid_prevention
     - action: utter_typhoid_prevention
+
+- story: AES Description
+  steps:
+  - intent: aes_description
+  - action: utter_aes_description
+
+- story: AES Symptoms
+  steps:
+  - intent: aes_symptoms
+  - action: utter_aes_symptoms
+
+- story: AES Prevention
+  steps:
+  - intent: aes_prevention
+  - action: utter_aes_prevention
+
+- story: Amoebiasis Description
+  steps:
+  - intent: amoebiasis_description
+  - action: utter_amoebiasis_description
+
+- story: Amoebiasis Symptoms
+  steps:
+  - intent: amoebiasis_symptoms
+  - action: utter_amoebiasis_symptoms
+
+- story: Amoebiasis Prevention
+  steps:
+  - intent: amoebiasis_prevention
+  - action: utter_amoebiasis_prevention
+
+- story: Buruli Ulcer Description
+  steps:
+  - intent: buruli_ulcer_description
+  - action: utter_buruli_ulcer_description
+
+- story: Buruli Ulcer Symptoms
+  steps:
+  - intent: buruli_ulcer_symptoms
+  - action: utter_buruli_ulcer_symptoms
+
+- story: Buruli Ulcer Prevention
+  steps:
+  - intent: buruli_ulcer_prevention
+  - action: utter_buruli_ulcer_prevention
+
+- story: Dengue Description
+  steps:
+  - intent: dengue_description
+  - action: utter_dengue_description
+
+- story: Dengue Symptoms
+  steps:
+  - intent: dengue_symptoms
+  - action: utter_dengue_symptoms
+
+- story: Dengue Prevention
+  steps:
+  - intent: dengue_prevention
+  - action: utter_dengue_prevention
+
+- story: Japanese Encephalitis Description
+  steps:
+  - intent: japanese_encephalitis_description
+  - action: utter_japanese_encephalitis_description
+
+- story: Japanese Encephalitis Symptoms
+  steps:
+  - intent: japanese_encephalitis_symptoms
+  - action: utter_japanese_encephalitis_symptoms
+
+- story: Japanese Encephalitis Prevention
+  steps:
+  - intent: japanese_encephalitis_prevention
+  - action: utter_japanese_encephalitis_prevention
+
+- story: Kala-azar Description
+  steps:
+  - intent: kala_azar_description
+  - action: utter_kala_azar_description
+
+- story: Kala-azar Symptoms
+  steps:
+  - intent: kala_azar_symptoms
+  - action: utter_kala_azar_symptoms
+
+- story: Kala-azar Prevention
+  steps:
+  - intent: kala_azar_prevention
+  - action: utter_kala_azar_prevention
+
+- story: Leishmaniasis Description
+  steps:
+  - intent: leishmaniasis_description
+  - action: utter_leishmaniasis_description
+
+- story: Leishmaniasis Symptoms
+  steps:
+  - intent: leishmaniasis_symptoms
+  - action: utter_leishmaniasis_symptoms
+
+- story: Leishmaniasis Prevention
+  steps:
+  - intent: leishmaniasis_prevention
+  - action: utter_leishmaniasis_prevention
+
+- story: Lymphatic Filariasis Description
+  steps:
+  - intent: lymphatic_filariasis_description
+  - action: utter_lymphatic_filariasis_description
+
+- story: Lymphatic Filariasis Symptoms
+  steps:
+  - intent: lymphatic_filariasis_symptoms
+  - action: utter_lymphatic_filariasis_symptoms
+
+- story: Lymphatic Filariasis Prevention
+  steps:
+  - intent: lymphatic_filariasis_prevention
+  - action: utter_lymphatic_filariasis_prevention
+
+- story: Onchocerciasis Description
+  steps:
+  - intent: onchocerciasis_description
+  - action: utter_onchocerciasis_description
+
+- story: Onchocerciasis Symptoms
+  steps:
+  - intent: onchocerciasis_symptoms
+  - action: utter_onchocerciasis_symptoms
+
+- story: Onchocerciasis Prevention
+  steps:
+  - intent: onchocerciasis_prevention
+  - action: utter_onchocerciasis_prevention
+
+- story: Pneumococcal Disease Description
+  steps:
+  - intent: pneumococcal_disease_description
+  - action: utter_pneumococcal_disease_description
+
+- story: Pneumococcal Disease Symptoms
+  steps:
+  - intent: pneumococcal_disease_symptoms
+  - action: utter_pneumococcal_disease_symptoms
+
+- story: Pneumococcal Disease Prevention
+  steps:
+  - intent: pneumococcal_disease_prevention
+  - action: utter_pneumococcal_disease_prevention
+
+- story: Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
+
+
+
+- story: User asks about precautionary measures
+  steps:
+  - intent: ask_precautionary_measures
+  - action: utter_ask_precautionary_measures
+
+- story: User asks about symptoms
+  steps:
+  - intent: ask_symptoms
+  - action: utter_ask_symptoms
+
+- story: User asks about medical professionals
+  steps:
+  - intent: ask_medical_professionals
+  - action: utter_ask_medical_professionals
+
+- story: User asks about medicine
+  steps:
+  - intent: ask_medicine
+  - action: utter_ask_medicine
+
+- story: User asks about basic amenities
+  steps:
+  - intent: ask_basic_amenities
+  - action: utter_ask_basic_amenities

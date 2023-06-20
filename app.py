@@ -14,7 +14,12 @@ def get_response():
     response = requests.post('http://localhost:5005', json={"message": user_message})
     parsed_response = json.loads(response.text)
     print(parsed_response)  # Add this line to print the parsed response
-    bot_response = parsed_response[0]['text']
+
+    if isinstance(parsed_response, list) and parsed_response and 'text' in parsed_response[0]:
+        bot_response = parsed_response[0]['text']
+    else:
+        bot_response = "Sorry, I couldn't understand your message."
+
     return bot_response
 
 

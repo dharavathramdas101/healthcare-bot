@@ -428,3 +428,215 @@ nlu:
     - How can I prevent typhoid?
     - What measures can I take to avoid getting typhoid?
     - Are there any ways to protect myself from typhoid?
+
+- intent: aes_description
+  examples: |
+    - What is Acute Encephalitis Syndrome?
+    - Can you explain Acute Encephalitis Syndrome to me?
+    - Tell me about AES
+
+- intent: aes_symptoms
+  examples: |
+    - What are the symptoms of Acute Encephalitis Syndrome?
+    - How do I know if I have AES?
+    - What are the signs of AES?
+
+- intent: aes_prevention
+  examples: |
+    - How can I prevent Acute Encephalitis Syndrome?
+    - What measures can I take to avoid AES?
+    - Are there any ways to protect myself from AES?
+
+- intent: amoebiasis_description
+  examples: |
+    - What is Amoebiasis?
+    - Can you explain Amoebiasis to me?
+    - Tell me about Amoebiasis
+
+- intent: amoebiasis_symptoms
+  examples: |
+    - What are the symptoms of Amoebiasis?
+    - How do I know if I have Amoebiasis?
+    - What are the signs of Amoebiasis?
+
+- intent: amoebiasis_prevention
+  examples: |
+    - How can I prevent Amoebiasis?
+    - What measures can I take to avoid Amoebiasis?
+    - Are there any ways to protect myself from Amoebiasis?
+
+- intent: buruli_ulcer_description
+  examples: |
+    - What is Buruli Ulcer?
+    - Can you explain Buruli Ulcer to me?
+    - Tell me about Buruli Ulcer
+
+- intent: buruli_ulcer_symptoms
+  examples: |
+    - What are the symptoms of Buruli Ulcer?
+    - How do I know if I have Buruli Ulcer?
+    - What are the signs of Buruli Ulcer?
+
+- intent: buruli_ulcer_prevention
+  examples: |
+    - How can I prevent Buruli Ulcer?
+    - What measures can I take to avoid Buruli Ulcer?
+    - Are there any ways to protect myself from Buruli Ulcer?
+
+- intent: dengue_description
+  examples: |
+    - What is Dengue?
+    - Can you explain Dengue to me?
+    - Tell me about Dengue
+
+- intent: dengue_symptoms
+  examples: |
+    - What are the symptoms of Dengue?
+    - How do I know if I have Dengue?
+    - What are the signs of Dengue?
+
+- intent: dengue_prevention
+  examples: |
+    - How can I prevent Dengue?
+    - What measures can I take to avoid Dengue?
+    - Are there any ways to protect myself from Dengue?
+
+- intent: japanese_encephalitis_description
+  examples: |
+    - What is Japanese Encephalitis?
+    - Can you explain Japanese Encephalitis to me?
+    - Tell me about Japanese Encephalitis
+
+- intent: japanese_encephalitis_symptoms
+  examples: |
+    - What are the symptoms of Japanese Encephalitis?
+    - How do I know if I have Japanese Encephalitis?
+    - What are the signs of Japanese Encephalitis?
+
+- intent: japanese_encephalitis_prevention
+  examples: |
+    - How can I prevent Japanese Encephalitis?
+    - What measures can I take to avoid Japanese Encephalitis?
+    - Are there any ways to protect myself from Japanese Encephalitis?
+
+- intent: kala_azar_description
+  examples: |
+    - What is Kala-azar?
+    - Can you explain Kala-azar to me?
+    - Tell me about Kala-azar
+
+- intent: kala_azar_symptoms
+  examples: |
+    - What are the symptoms of Kala-azar?
+    - How do I know if I have Kala-azar?
+    - What are the signs of Kala-azar?
+
+- intent: kala_azar_prevention
+  examples: |
+    - How can I prevent Kala-azar?
+    - What measures can I take to avoid Kala-azar?
+    - Are there any ways to protect myself from Kala-azar?
+
+- intent: leishmaniasis_description
+  examples: |
+    - What is Leishmaniasis?
+    - Can you explain Leishmaniasis to me?
+    - Tell me about Leishmaniasis
+
+- intent: leishmaniasis_symptoms
+  examples: |
+    - What are the symptoms of Leishmaniasis?
+    - How do I know if I have Leishmaniasis?
+    - What are the signs of Leishmaniasis?
+
+- intent: leishmaniasis_prevention
+  examples: |
+    - How can I prevent Leishmaniasis?
+    - What measures can I take to avoid Leishmaniasis?
+    - Are there any ways to protect myself from Leishmaniasis?
+
+- intent: lymphatic_filariasis_description
+  examples: |
+    - What is Lymphatic Filariasis?
+    - Can you explain Lymphatic Filariasis to me?
+    - Tell me about Lymphatic Filariasis
+
+- intent: lymphatic_filariasis_symptoms
+  examples: |
+    - What are the symptoms of Lymphatic Filariasis?
+    - How do I know if I have Lymphatic Filariasis?
+    - What are the signs of Lymphatic Filariasis?
+
+- intent: lymphatic_filariasis_prevention
+  examples: |
+    - How can I prevent Lymphatic Filariasis?
+    - What measures can I take to avoid Lymphatic Filariasis?
+    - Are there any ways to protect myself from Lymphatic Filariasis?
+
+- intent: onchocerciasis_description
+  examples: |
+    - What is Onchocerciasis?
+    - Can you explain Onchocerciasis to me?
+    - Tell me about Onchocerciasis
+
+- intent: onchocerciasis_symptoms
+  examples: |
+    - What are the symptoms of Onchocerciasis?
+    - How do I know if I have Onchocerciasis?
+    - What are the signs of Onchocerciasis?
+
+- intent: onchocerciasis_prevention
+  examples: |
+    - How can I prevent Onchocerciasis?
+    - What measures can I take to avoid Onchocerciasis?
+    - Are there any ways to protect myself from Onchocerciasis?
+
+- intent: pneumococcal_disease_description
+  examples: |
+    - What is Pneumococcal Disease?
+    - Can you explain Pneumococcal Disease to me?
+    - Tell me about Pneumococcal Disease
+
+- intent: pneumococcal_disease_symptoms
+  examples: |
+    - What are the symptoms of Pneumococcal Disease?
+    - How do I know if I have Pneumococcal Disease?
+    - What are the signs of Pneumococcal Disease?
+
+- intent: pneumococcal_disease_prevention
+  examples: |
+    - How can I prevent Pneumococcal Disease?
+    - What measures can I take to avoid Pneumococcal Disease?
+    - Are there any ways to protect myself from Pneumococcal Disease?
+
+
+
+- intent: ask_precautionary_measures
+  examples: |
+    - What are the precautionary measures for COVID-19?
+    - How can I protect myself from the virus?
+    - What should I do to stay safe?
+
+- intent: ask_symptoms
+  examples: |
+    - What are the common symptoms of COVID-19?
+    - How do I know if I have COVID-19?
+    - What are the signs of the virus?
+
+- intent: ask_medical_professionals
+  examples: |
+    - Are there any medical professionals available nearby?
+    - How can I find a doctor in my area?
+    - Where can I get medical help?
+
+- intent: ask_medicine
+  examples: |
+    - What are some common medicines for cold and flu?
+    - Where can I find information about medications?
+    - Can you recommend any over-the-counter drugs?
+
+- intent: ask_basic_amenities
+  examples: |
+    - Where can I find food and water?
+    - Are grocery stores open in my area?
+    - How can I get essential supplies?

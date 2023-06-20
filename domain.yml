@@ -65,11 +65,46 @@ intents:
   - typhoid_description
   - typhoid_symptoms
   - typhoid_prevention
+  - aes_description
+  - aes_symptoms
+  - aes_prevention
+  - amoebiasis_description
+  - amoebiasis_symptoms
+  - amoebiasis_prevention
+  - buruli_ulcer_description
+  - buruli_ulcer_symptoms
+  - buruli_ulcer_prevention
+  - dengue_description
+  - dengue_symptoms
+  - dengue_prevention
+  - japanese_encephalitis_description
+  - japanese_encephalitis_symptoms
+  - japanese_encephalitis_prevention
+  - kala_azar_description
+  - kala_azar_symptoms
+  - kala_azar_prevention
+  - leishmaniasis_description
+  - leishmaniasis_symptoms
+  - leishmaniasis_prevention
+  - lymphatic_filariasis_description
+  - lymphatic_filariasis_symptoms
+  - lymphatic_filariasis_prevention
+  - onchocerciasis_description
+  - onchocerciasis_symptoms
+  - onchocerciasis_prevention
+  - pneumococcal_disease_description
+  - pneumococcal_disease_symptoms
+  - pneumococcal_disease_prevention
+  - ask_precautionary_measures
+  - ask_symptoms
+  - ask_medical_professionals
+  - ask_medicine
+  - ask_basic_amenities
 
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hello! How can i assist you with your health related queries today?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -259,6 +294,129 @@ responses:
 
   utter_typhoid_prevention:
   - text: "To prevent typhoid, it is important to practice good hygiene, such as regular handwashing, consume safe and clean food and water, and consider vaccination in high-risk areas."
+  
+
+  utter_aes_description:
+  - text: "Acute Encephalitis Syndrome (AES) is a severe neurological condition that causes inflammation of the brain. It is characterized by high fever, headache, stiffness in the neck, and altered mental state. AES can lead to serious complications and requires immediate medical attention."
+
+  utter_aes_symptoms:
+  - text: "The common symptoms of Acute Encephalitis Syndrome include high fever, headache, neck stiffness, seizures, confusion, disorientation, and unconsciousness. In severe cases, it may cause paralysis or coma."
+
+  utter_aes_prevention:
+  - text: "Prevention measures for Acute Encephalitis Syndrome include maintaining good hygiene practices, avoiding mosquito bites, ensuring vaccination against Japanese Encephalitis (JE) virus, and practicing proper sanitation and cleanliness."
+
+  utter_amoebiasis_description:
+  - text: "Amoebiasis is an intestinal infection caused by the parasite Entamoeba histolytica. It primarily affects the intestines but can also spread to other organs like the liver. It leads to symptoms such as diarrhea, abdominal pain, and fever."
+
+  utter_amoebiasis_symptoms:
+  - text: "The symptoms of Amoebiasis include diarrhea (which may contain blood or mucus), stomach cramps, abdominal pain, nausea, and fever. In severe cases, it can cause liver abscesses, leading to symptoms like jaundice and weight loss."
+
+  utter_amoebiasis_prevention:
+  - text: "To prevent Amoebiasis, it is essential to maintain good personal hygiene, wash hands regularly with soap and clean water, drink safe and clean water, and avoid consuming contaminated food and water."
+
+  utter_buruli_ulcer_description:
+  - text: "Buruli Ulcer is a chronic bacterial infection caused by Mycobacterium ulcerans. It affects the skin and underlying tissues, leading to the development of ulcers. It is primarily found in tropical and subtropical regions."
+
+  utter_buruli_ulcer_symptoms:
+  - text: "The symptoms of Buruli Ulcer include painless skin lesions that can gradually turn into ulcers. The ulcers may be accompanied by swelling, nodules, or skin thickening. In advanced stages, it can cause deformities and disability."
+
+  utter_buruli_ulcer_prevention:
+  - text: "Preventive measures for Buruli Ulcer include avoiding contact with stagnant water, wearing protective clothing (especially in endemic areas), and early detection and treatment of any skin lesions or ulcers."
+
+  utter_dengue_description:
+  - text: "Dengue is a viral infection transmitted through the bite of infected mosquitoes, primarily the Aedes mosquito. It causes flu-like symptoms, such as high fever, severe headache, joint and muscle pain, and rash."
+
+  utter_dengue_symptoms:
+  - text: "The symptoms of Dengue include high fever, severe headache (typically behind the eyes), joint and muscle pain, rash, nausea, and vomiting. In severe cases, it can lead to dengue hemorrhagic fever or dengue shock syndrome."
+
+  utter_dengue_prevention:
+  - text: "Prevention of Dengue involves eliminating mosquito breeding sites, using mosquito repellents, wearing protective clothing, and ensuring the use of bed nets. Community efforts, such as regular garbage disposal and mosquito control programs, are also crucial."
+
+  utter_japanese_encephalitis_description:
+  - text: "Japanese Encephalitis (JE) is a viral infection transmitted by mosquitoes, primarily in rural agricultural areas. It affects the brain and can cause severe neurological complications. JE is prevalent in many countries in Asia."
+
+  utter_japanese_encephalitis_symptoms:
+  - text: "The symptoms of Japanese Encephalitis include fever, headache, neck stiffness, seizures, confusion, and coma. In severe cases, it can lead to paralysis and permanent brain damage."
+
+  utter_japanese_encephalitis_prevention:
+  - text: "Prevention of Japanese Encephalitis involves vaccination, especially for individuals living in or traveling to endemic areas. Mosquito control measures, such as using bed nets and insect repellents, are also important."
+
+  utter_kala_azar_description:
+  - text: "Kala-azar, also known as Visceral Leishmaniasis, is a parasitic disease caused by the Leishmania donovani parasite. It affects the internal organs, such as the spleen, liver, and bone marrow. Kala-azar is transmitted through the bite of infected sandflies."
+
+  utter_kala_azar_symptoms:
+  - text: "The symptoms of Kala-azar include prolonged fever, weight loss, fatigue, enlarged spleen, and liver. Other symptoms may include anemia, decreased appetite, and swelling of the abdomen."
+
+  utter_kala_azar_prevention:
+  - text: "Prevention of Kala-azar involves controlling the sandfly population by using insecticides, wearing protective clothing, and using bed nets. Early diagnosis and treatment of cases are crucial to prevent the spread of the disease."
+
+  utter_leishmaniasis_description:
+  - text: "Leishmaniasis is a parasitic disease caused by the Leishmania parasite. It can manifest in three main forms: cutaneous, mucocutaneous, and visceral. The disease is transmitted through the bite of infected sandflies."
+
+  utter_leishmaniasis_symptoms:
+  - text: "The symptoms of Leishmaniasis vary depending on the form of the disease. Cutaneous Leishmaniasis causes skin ulcers, mucocutaneous Leishmaniasis affects the mucous membranes, and visceral Leishmaniasis affects the internal organs. Symptoms may include skin lesions, fever, weight loss, and enlargement of the spleen and liver."
+
+  utter_leishmaniasis_prevention:
+  - text: "Prevention of Leishmaniasis involves controlling the sandfly population, using insect repellents, wearing protective clothing, and sleeping under bed nets. Avoiding contact with sandfly-infested areas is also recommended."
+
+  utter_lymphatic_filariasis_description:
+  - text: "Lymphatic Filariasis, also known as Elephantiasis, is a parasitic disease caused by filarial worms. It affects the lymphatic system and can cause severe swelling and deformities in the limbs, breasts, and genitals."
+
+  utter_lymphatic_filariasis_symptoms:
+  - text: "The symptoms of Lymphatic Filariasis include swelling of the limbs, breasts, and genitals, thickening of the skin, fever, pain, and lymph node enlargement. In advanced stages, it can cause disability and social stigma."
+
+  utter_lymphatic_filariasis_prevention:
+  - text: "Prevention of Lymphatic Filariasis involves mass drug administration with antifilarial drugs to reduce the transmission of the disease. Personal protection measures, such as wearing protective clothing and using bed nets, can also help prevent mosquito bites."
+
+  utter_onchocerciasis_description:
+  - text: "Onchocerciasis, also known as River Blindness, is a parasitic disease caused by the worm Onchocerca volvulus. It is transmitted through the bite of infected blackflies. Onchocerciasis can lead to visual impairment and blindness."
+
+  utter_onchocerciasis_symptoms:
+  - text: "The symptoms of Onchocerciasis include severe itching, skin rashes, and eye lesions. In long-term infections, it can cause visual impairment, including blindness."
+
+  utter_onchocerciasis_prevention:
+  - text: "Prevention of Onchocerciasis involves community-directed treatment programs using antiparasitic drugs. Controlling the blackfly population through environmental measures, such as larviciding, is also important."
+
+  utter_pneumococcal_disease_description:
+  - text: "Pneumococcal Disease is an infection caused by the bacterium Streptococcus pneumoniae. It can manifest as pneumonia, meningitis, or other invasive infections. Pneumococcal Disease can be severe, especially in young children, older adults, and individuals with weakened immune systems."
+
+  utter_pneumococcal_disease_symptoms:
+  - text: "The symptoms of Pneumococcal Disease depend on the site of infection. In pneumonia, common symptoms include cough, fever, chest pain, and difficulty breathing. Meningitis can cause severe headache, neck stiffness, and neurological symptoms."
+
+  utter_pneumococcal_disease_prevention:
+  - text: "Prevention of Pneumococcal Disease involves vaccination, especially for high-risk groups. Good hygiene practices, such as regular handwashing, can also help prevent the spread of the bacteria."
+
+  utter_default:
+  - text: "I'm sorry, I didn't understand. Can you please rephrase your question?"
+  
+
+  utter_ask_precautionary_measures:
+  - text: "To protect yourself from COVID-19, follow these measures:
+      \n1. Wash your hands frequently with soap and water.
+      \n2. Wear a mask in public places.
+      \n3. Maintain physical distance from others.
+      \n4. Avoid touching your face.
+      \n5. Cover your mouth and nose while coughing or sneezing.
+      \n6. Stay home if you feel unwell.
+      \nRemember, staying informed is also important. Stay updated with the latest guidelines from health authorities."
+
+  utter_ask_symptoms:
+  - text: "Common symptoms of COVID-19 include:
+      \n1. Fever
+      \n2. Cough
+      \n3. Shortness of breath
+      \n4. Fatigue
+      \n5. Body aches
+      \nIf you experience these symptoms, it is advisable to consult a healthcare professional."
+
+  utter_ask_medical_professionals:
+  - text: "You can find medical professionals near you by checking online directories, contacting local hospitals, or using healthcare service apps. They can help you locate doctors and healthcare facilities in your area."
+
+  utter_ask_medicine:
+  - text: "It's important to consult a healthcare professional for medical advice and information about specific medications. They can recommend appropriate over-the-counter or prescription medicines based on your symptoms and condition."
+
+  utter_ask_basic_amenities:
+  - text: "To find food and water, you can visit local grocery stores, supermarkets, or order online. Many food delivery services are also available. Ensure you follow the guidelines provided by health authorities while going out."
 
 
 session_config:
