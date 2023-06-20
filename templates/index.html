@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chatbot</title>
+    <title>Health Care Chatbot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
         }
 
         #chatbox {
-            width: 600px;
+            width: 400px;
             margin: 0 auto;
-            display: flex;
-            justify-content: space-between; /* Display developers' info and chatbot side by side */
         }
 
         #chatlog {
@@ -19,7 +17,6 @@
             border: 1px solid #ccc;
             padding: 10px;
             overflow-y: scroll;
-            width: 60%; /* Adjust the width as needed */
         }
 
         .user-message,
@@ -36,7 +33,7 @@
         }
 
         #userInput {
-            width: 70%; /* Adjust the width as needed */
+            width: 300px;
             padding: 5px;
             margin-right: 5px;
         }
@@ -46,47 +43,31 @@
         }
 
         .healthcare-chatbot {
-            width: 40%; /* Adjust the width as needed */
-            height: 400px; /* Increased size */
+            width: 300px;
+            height: 200px;
             border: 1px solid #ccc;
+            margin: 0 auto;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url('path_to_image.jpg'); /* Replace 'path_to_image.jpg' with the actual path to your background image */
-            background-size: cover;
         }
 
         .healthcare-chatbot img {
             width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
-        .developers-info {
-            width: 30%; /* Adjust the width as needed */
-            text-align: right;
-        }
-
-        .developers-info ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .developers-info ul li {
-            margin-bottom: 5px;
-        }
-
-        .contact-info {
-            text-align: right;
         }
     </style>
 </head>
 <body>
-    <h1>Chatbot</h1>
+    <h1>Health Care Chatbot</h1>
     <div id="chatbox">
         <div id="chatlog"></div>
-        <div class="developers-info">
-            <p>Developed by:</p>
+        <input id="userInput" type="text" placeholder="Enter your message" autofocus />
+        <button id="sendBtn" onclick="sendMessage()">Send</button>
+        <div class="healthcare-chatbot">
+            <img src="https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_22457_16516788730473249.jpg" alt="Healthcare Chatbot">
+        </div>
+        <p>
+            This chatbot was created by a team of developers:
             <ul>
                 <li>Chaganti Kusumitha</li>
                 <li>Sagar Barkam</li>
@@ -95,19 +76,8 @@
                 <li>Vasanth K</li>
                 <li>Dharavath Ramdas</li>
             </ul>
-            <div class="contact-info">
-                <p>Contact us at:</p>
-                <p><a href="mailto:dramdas1505@gmail.com">dramdas1505@gmail.com</a></p>
-            </div>
-        </div>
-        <div class="healthcare-chatbot">
-            <img src="https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_22457_16516788730473249.jpg" alt="Healthcare Chatbot">
-        </div>
-    </div>
-
-    <div>
-        <input id="userInput" type="text" placeholder="Enter your message" autofocus />
-        <button id="sendBtn" onclick="sendMessage()">Send</button>
+            You can contact us at <a href="mailto:dramdas1505@gmail.com">dramdas1505@gmail.com</a>.
+        </p>
     </div>
 
     <script>
