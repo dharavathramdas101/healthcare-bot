@@ -8,9 +8,8 @@
 ![img](https://github.com/dharavathramdas101/healthcare-bot/blob/main/demo_app/Screenshot%202023-06-20%20174209.png)
 
 # video
-<video controls>
-  <source src="https://github.com/dharavathramdas101/healthcare-bot/raw/main/demo_app/Untitled%20video%20-%20Made%20with%20Clipchamp%20(10).mp4" type="video/mp4">
-</video>
+
+![Video](https://github.com/dharavathramdas101/healthcare-bot/raw/main/demo_app/Untitled%20video%20-%20Made%20with%20Clipchamp%20(10).mp4)
 
 # Steps follow to create chatbot
 ## 1. conda create -n venv python=3.8 -y
